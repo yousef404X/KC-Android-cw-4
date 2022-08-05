@@ -1,0 +1,30 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main
+{
+	public static void main(String[] args) {
+	    int temp = 11;
+	    	    temperature(temp);
+	    
+	}
+	public static void temperature(int a){
+	    	    int temp = 23;
+
+	        if (temp >= 23){
+        
+        System.out.println("it is very hot!!!");
+        
+    } else if(temp < 23) {
+        
+        System.out.println("it is very cold here!!!");
+
+    }
+    
+}
+}

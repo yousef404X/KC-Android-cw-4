@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69F0AE"
+    android:backgroundTint="#5BE6A2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Calculator"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="456dp"
+        android:fontFamily="sans-serif"
+        android:text="Calculator"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="146dp"
+        android:text="calculate" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="Second Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/calculate"
+        android:layout_alignStart="@+id/calculate"
+        android:layout_alignEnd="@+id/calculate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="-93dp"
+        android:layout_marginBottom="139dp"
+        android:fontFamily="sans-serif"
+        android:text="Total"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+</RelativeLayout>
